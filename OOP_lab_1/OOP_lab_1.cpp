@@ -204,8 +204,7 @@ ostream& operator<<(ostream& out, const EcGr4& p) {
 
 int main()
 {
-    Complex x, *y ,a(3, 1), b(2, 1), c(1, 1), d(1, 1), e(2, 1), f(3, 1);
-    y = new(nothrow)Complex[4];
+    Complex x ,a(3, 1), b(2, 1), c(1, 1), d(1, 1), e(2, 1), f(3, 1);
     //a = (Complex)"3+1i"; b = (Complex)"2+1i"; c = (Complex)"1+1i";
     cout << a+b;
     cin >> x;
